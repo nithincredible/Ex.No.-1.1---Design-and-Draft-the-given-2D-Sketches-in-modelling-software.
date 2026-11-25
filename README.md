@@ -1,48 +1,80 @@
-# Ex.No.-1.1-Design and Draft the given 2D Sketches in modelling software.
+# Ex. No. 1.1 – Design and Draft the Given 2D Sketches in Modelling Software
 
-## AIM
+## Aim
+To sketch the given drawing with dimensions using Autodesk Fusion 360.
 
-To sketch the given drawing with dimensions using fusion 360 tool.
+## Requirements
+1. Autodesk Fusion 360
+2. Windows 10
+3. 16 GB RAM (integrated graphics recommend 2 GB or more)
+4. Internet connection: 2.5 Mbps or faster download; 500 Kbps or faster upload
 
-## REQUIREMENTS
+## Procedure
 
-  1. Autodesk fusion 360
-  2. Windows 10
-  3. 16 GB of RAM (integrated graphics recommend 2 GB or more)
-  4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
-  
-## PROCEDURE
+### 1. Create a New Sketch
+- Open Autodesk Fusion 360 and create a new design.
+- Select **Create Sketch** from the Design workspace.
+- Choose the **XY Plane** as the sketch plane.
+- Enter the sketching environment and set a suitable view.
+- Keep the origin and centre lines visible for reference.
 
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch
+### 2. Mark the Reference Centres
+- Take the centre of the main circular feature as the origin.
+- Mark the centre of the upper circular feature 65 mm above the origin.
+- Mark the centre of the lower circular feature 50 mm below the origin.
+- Mark the centres of the left and right side features 26 mm below the origin and 47 mm from the Y-axis.
 
-![image](https://user-images.githubusercontent.com/113594316/198206497-ca83d495-119b-45cd-b43d-8ca3ea7e9544.png)
+### 3. Create the Main Circular Features
+- At the origin, draw the Ø40 circle.
+- Create the required R6 circular features inside the Ø40 circle.
+- Use the **Mirror/Pattern** command to create the symmetrical inner features.
+- Draw the Ø66 circle with the origin as its centre.
+- At the upper centre point, draw the Ø20 and Ø32 circles.
+- At the lower centre point, draw the Ø10 and Ø20 circles.
+- At both the left and right side centre points, draw the R7/Ø14 and R10/Ø20 circles.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+![Creating the circular features in Fusion 360](assets/01-circle-features.jpg)
 
-![image](https://user-images.githubusercontent.com/113594316/198206562-68463016-3f32-4a87-aa5b-7a17dd023b31.png)
+### 4. Complete the Inner Features
+- Create the required inner curved features around the Ø40 circle.
+- Apply the R6/Ø12 dimension to the required inner curves.
+- Use the **Mirror/Pattern** command to obtain the remaining symmetrical features.
+- Ensure that all inner features are properly aligned with the centre lines.
 
-5.	Use inspect feature to measure the dimensions of sketch.
+![Using the Mirror command](assets/02-mirror-command.jpg)
 
-![image](https://user-images.githubusercontent.com/113594316/198206621-6348e8a3-4bbd-4a1f-96d3-db16fbf933d9.png)
+### 5. Construct the Outer Profile
+- Create the required arcs to connect the circular features and form the outer profile.
+- Apply the specified R64/Ø128, R20/Ø40 and R10/Ø20 dimensions to the required arcs.
+- Use **Tangent** constraints to smoothly connect the circles and arcs.
+- Use the **Mirror** command for the required symmetrical geometry.
+- Check that the outer profile is smooth, continuous and symmetrical.
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+![Applying tangent constraints](assets/03-tangent-constraint.jpg)
 
-![image](https://user-images.githubusercontent.com/113594316/198206639-31c4bdb5-b13e-4106-bcf5-125c294aa03e.png)
+### 6. Trim and Modify
+- Select the **Trim** command under Modify.
+- Remove unwanted portions of overlapping circles, lines and arcs.
+- Repeat the trimming wherever necessary to obtain the required profile.
+- Check that no unwanted or incomplete geometry remains.
+- Verify the dimensions and constraints as given.
 
-7.	After finishing the sketch switch to drawing mode to plot the sketch in ISO standard.
+![Using the Trim command](assets/04-trim-command.jpg)
 
-![image](https://user-images.githubusercontent.com/113594316/198206697-2e3ead2b-7d1e-436e-bc36-aa2e73c1e78e.png)
+### 7. Final Verification
+- Compare the completed sketch with the given drawing.
+- Verify all required dimensions, positions, tangencies and symmetry.
+- Ensure that the tangent connections are smooth.
+- Check that the complete outer and inner profiles are properly formed.
+- Click **Finish Sketch** to complete the 2D sketch.
 
-![image](https://user-images.githubusercontent.com/113594316/198206721-8ad45462-2675-4be2-964f-621c8fc4490e.png)
+## Output
 
+### Final Sketch in Autodesk Fusion 360
+![Final dimensioned sketch in Fusion 360](assets/05-final-fusion-sketch.jpg)
 
-## SKETCHS
-![image](https://user-images.githubusercontent.com/113594316/198208087-87ed794e-5f1c-4583-82e0-f29699dfc305.png)
+### Dimensioned 2D Drawing
+![Completed dimensioned 2D drawing](assets/06-dimensioned-2d-drawing.jpg)
 
-## OUTPUT
-
-
-## RESULT
-Thus the given sketch is drawn and drafted using fusion 360 tool.
+## Result
+The given diagram was successfully sketched using Autodesk Fusion 360 with the specified dimensions, geometric features, constraints and symmetry.
